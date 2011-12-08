@@ -1,8 +1,29 @@
 {
-  "name": "pref-example",
-  "fullName": "pref-example",
-  "description": "a basic add-on",
-  "author": "",
-  "license": "MPL 1.1/GPL 2.0/LGPL 2.1",
-  "version": "0.1"
+    "name": "pref-example",
+    "license": "MPL 1.1/GPL 2.0/LGPL 2.1",
+    "author": "Jeff Griffiths ( jeff@canuckistani.ca )",
+    "version": "0.1",
+    "fullName": "pref-example",
+    "id": "jid1-NYHGYVhOiA8sWA",
+    "description": "a basic add-on",
+    "preferences": [
+        {
+            "type": "string",
+            "name": "stringPreference",
+            "value": "this is the default string value",
+            "title": "String Preference"
+        },
+        {
+            "type": "bool",
+            "name": "boolPreference",
+            "value": true,
+            "title": "Boolean Pref" 
+        },
+        {
+            "type": "integer",
+            "name": "intPreference",
+            "value": 42,
+            "title": "Integer Pref" 
+        }
+    ]
 }
